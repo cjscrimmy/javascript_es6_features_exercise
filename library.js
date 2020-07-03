@@ -5,6 +5,7 @@ const Library = class {
   constructor(books = []){
     this.books = books;
   }
+  
 };
 Library.prototype.bookCount = function () {
   return this.books.length;
@@ -24,4 +25,5 @@ Library.prototype.printInventory = function () {
   });
 };
 
-module.exports = Library;
+// module.exports = Library;
+export default Library;
