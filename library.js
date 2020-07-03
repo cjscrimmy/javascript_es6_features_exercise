@@ -1,7 +1,11 @@
-const Library = function (books = []) {
-  this.books = books;
+// const Library = function (books = []) {
+//   this.books = books;
+// };
+const Library = class {
+  constructor(books = []){
+    this.books = books;
+  }
 };
-
 Library.prototype.bookCount = function () {
   return this.books.length;
 };
