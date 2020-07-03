@@ -4,7 +4,7 @@
 //   this.genre = genre;
 // };
 
-const Book = class {
+class Book {
   constructor(author, title, genre){
     this.author = author;
     this.title = title;
